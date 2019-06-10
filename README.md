@@ -34,13 +34,18 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+it gives the computer and the programmer meaning and without it you can not bulid a good home page.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+vertically - horizantly
 
 3. What are the 4 areas of the box model?
+content-padding-border-margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
 5. Explain why git is valuable to a team of developers.
+to compare the project with other developes and allow the team to work together on same work.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
