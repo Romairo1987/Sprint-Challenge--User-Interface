@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    padding-top: 20px;
 }
 ol, ul {
 	list-style: none;
@@ -82,7 +83,9 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px; 
+    font-size: 25px; 
+    align-content: center
 }
 
 .middle-content {
@@ -116,6 +119,7 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    font-size: 28px;
 }
 
 .bottom-content .text-container {
@@ -143,4 +147,136 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.container{
+    width:1200px;
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+h2{
+    font-size: 35px;
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 19px;
+    padding-left:150px;
+    padding-bottom: 30px;
+      
+}
+
+.middle-content .boxes .box1{
+background-color: teal;
+}
+
+.middle-content .boxes .box2{
+    background-color: gold;
+}
+
+.middle-content .boxes .box3{
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4{
+    background-color: coral;
+}
+
+.middle-content .boxes .box5{
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7{
+    background-color: darkorchid;
+}
+
+.middle-content .boxes .box8{
+    background-color: hotpink;
+}
+
+.middle-content .boxes .box9{
+    background-color: indigo;
+}
+
+.middle-content .boxes .box10{
+    background-color: dodgerblue;
+}
+
+.imagell{
+    width:1200px;
+    height:200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    margin-top: 30px;
+    margin-left: 77px;
+}
+
+.about-text-container{
+    font-size: 20px;
+   padding-left: 20px;
+}
+
+.plan{
+    height:600px;
+    width: 500px;
+    margin: 50px;
+
+}
+
+.about-page{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+.container .plan img{
+    width:500px;
+}
+
+.plan h3{
+    font-size: 30px;
+    padding-top:20px;
+}
+
+.plan p{
+    font-size: 20px;
+}
+
+button{
+    height: 50px;
+    width:260px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.last-section h4{
+    font-size: 30px;
+}
+.last-section{
+    margin:20px;
+    font-size: 22px;
 }
